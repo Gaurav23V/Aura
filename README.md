@@ -24,7 +24,7 @@ AI Video Share is a cross-platform mobile application built with React Native th
 ## Demo
 
 <div align="center">
-  <img src="sample_images/aura.gif" alt="App Demo" width="50%">
+  <img src="sample_images/demo.gif" alt="App Demo" width="50%">
 </div>
 
 ## Installation
