@@ -34,7 +34,7 @@ const App = () => {
             <Text style={styles.title}>
               Discover Endless{"\n"}
               Possibilities with{" "}
-              <Text style={styles.subTitle}>Aora</Text>
+              <Text style={styles.subTitle}>Aura</Text>
             </Text>
 
             <Image
@@ -46,7 +46,7 @@ const App = () => {
 
           <Text style={styles.description}>
             Where Creativity Meets Innovation: Embark on a Journey of Limitless
-            Exploration with Aora
+            Exploration with Aura
           </Text>
 
           <CustomButton

@@ -6,6 +6,7 @@ import { ResizeMode, Video } from 'expo-av';
 
 const VideoCard = ({ title, creator, avatar, thumbnail, videoUri }) => {
   const [play, setPlay] = useState(false);
+  const videoRef = React.useRef(null);
 
   const handlePlayPause = () => {
     setPlay((prev) => !prev);
@@ -42,8 +43,9 @@ const VideoCard = ({ title, creator, avatar, thumbnail, videoUri }) => {
 
       {play ? (
         <Video
-          style={styles.styledView}
+          ref={videoRef}
           source={{ uri: videoUri }}
+          style={styles.styledView}
           resizeMode={ResizeMode.CONTAIN}
           useNativeControls
           shouldPlay

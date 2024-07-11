@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# Aura
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AI Video Share is a cross-platform mobile application built with React Native that allows users to share AI-generated videos and images along with their prompts. Users can explore trending content, upload their own creations, and connect with a community of AI enthusiasts.
 
-## Get started
+<div style="display: flex; justify-content: space-between;">
+  <img src="sample_images/welcome" alt="Welcome Page" width="48%">
+  <img src="sample_images/home" alt="Home Page" width="48%">
+</div>
 
-1. Install dependencies
+## Features
 
-   ```bash
+1. **Welcome Page**: A sleek introduction to the app's capabilities.
+2. **Authentication**: Secure login and sign-up functionality powered by Appwrite backend.
+3. **Home Page**: 
+   - Browse the latest and trending posts
+   - Play videos directly in the feed
+   - Search for specific topics or content
+4. **Create Page**: Upload and share your own AI-generated videos and images.
+5. **Profile Page**:
+   - View your total video views and upload count
+   - Browse all your uploaded content
+   - Track your impact in the community
+
+## Demo
+
+<div align="center">
+  <img src="sample_images/aura.gif" alt="App Demo" width="50%">
+</div>
+
+## Installation
+
+### Option 1: Download the APK
+
+For the quickest installation, download our pre-built APK:
+[Download AI Video Share APK](https://link-to-your-apk.com)
+
+### Option 2: Run from Source
+
+If you're a developer or want to customize the app, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/gaurav23v/aura.git
+   cd aura
+   ```
+
+2. Install dependencies:
+   ```
    npm install
    ```
 
-2. Start the app
-
-   ```bash
-    npx expo start
+3. Start the development server:
+   ```
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+4. Use the Expo Go app to run the application:
+   - Install Expo Go on your iOS or Android device
+   - Scan the QR code displayed in your terminal with the Expo Go app
+   - The app will load and run on your device
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Acknowledgments
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Thanks to the Appwrite team for providing an excellent backend solution
+- Shoutout to the React Native community for their invaluable resources and support
 
-## Get a fresh project
+---
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Don't forget to star ⭐ this repo if you find it useful!
