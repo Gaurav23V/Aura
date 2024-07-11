@@ -32,7 +32,7 @@ AI Video Share is a cross-platform mobile application built with React Native th
 ### Option 1: Download the APK
 
 For the quickest installation, download our pre-built APK:
-[Download AI Video Share APK](https://link-to-your-apk.com)
+[Will be here soon...](https://link-to-your-apk.com)
 
 ### Option 2: Run from Source
 
